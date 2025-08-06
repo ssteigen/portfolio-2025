@@ -18,6 +18,7 @@ const Projects: React.FC = () => {
       description: 'Classic minesweeper game implemented with modern web technologies.',
       technologies: ['JavaScript', 'SCSS', 'HTML'],
       githubUrl: 'https://github.com/ssteigen/minesweeper',
+      liveUrl: 'https://ssteigen.github.io/minesweeper/',
       featured: true
     },
     {
@@ -26,6 +27,7 @@ const Projects: React.FC = () => {
       description: 'Interactive color filling application with smooth animations and responsive design.',
       technologies: ['JavaScript', 'CSS', 'HTML'],
       githubUrl: 'https://github.com/ssteigen/colorfill',
+      liveUrl: 'https://ssteigen.github.io/colorfill/',
       featured: true
     },
     {
@@ -33,21 +35,25 @@ const Projects: React.FC = () => {
       name: 'Namerator',
       description: 'Creative team name generator with customizable options and themes.',
       technologies: ['JavaScript', 'HTML', 'CSS'],
-      githubUrl: 'https://github.com/ssteigen/namerator'
+      githubUrl: 'https://github.com/ssteigen/namerator',
+      liveUrl: 'https://ssteigen.github.io/namerator/'
     },
     {
       id: 'skatesona',
       name: 'Skatesona',
       description: 'Design your ideal skates with customization options and visual previews.',
       technologies: ['JavaScript', 'HTML', 'CSS'],
-      githubUrl: 'https://github.com/ssteigen/skatesona'
+      githubUrl: 'https://github.com/ssteigen/skatesona',
+      liveUrl: 'https://ssteigen.github.io/skatesona/'
     },
     {
       id: 'yarn-basket',
       name: 'The Yarn Basket',
-      description: 'Web application for yarn enthusiasts to organize and track their projects.',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
-      githubUrl: 'https://github.com/ssteigen/the-yarn-basket'
+      description: 'Complete website redesign for a local knitting supply store featuring responsive design, project gallery, and business information.',
+      technologies: ['HTML5', 'CSS3', 'Foundation CSS', 'JavaScript'],
+      githubUrl: 'https://github.com/ssteigen/the-yarn-basket',
+      liveUrl: 'https://ssteigen.github.io/the-yarn-basket/',
+      featured: true
     }
   ];
 
