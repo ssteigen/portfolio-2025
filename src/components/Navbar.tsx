@@ -4,7 +4,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#home">Savanah Steigen</a>
+        <a className="navbar-brand" href="#home">San</a>
         
         <button 
           className="navbar-toggler" 
