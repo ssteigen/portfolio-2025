@@ -14,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             src={project.imageUrl} 
             className="card-img-top" 
             alt={project.name}
-            style={{height: '200px', objectFit: 'cover'}}
+            style={{height: '300px', objectFit: 'cover', objectPosition: 'top'}}
           />
         )}
         <div className="card-body d-flex flex-column">

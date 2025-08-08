@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
       description: 'Searchable repository of Animal Crossing designs with filtering and categorization features.',
       technologies: ['JavaScript', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/ssteigen/acdesignhub',
-      featured: true
+      featured: false
     },
     {
       id: 'minesweeper',
@@ -19,7 +19,8 @@ const Projects: React.FC = () => {
       technologies: ['JavaScript', 'SCSS', 'HTML'],
       githubUrl: 'https://github.com/ssteigen/minesweeper',
       liveUrl: 'https://ssteigen.github.io/minesweeper/',
-      featured: true
+      imageUrl: '/portfolio-2025/images/projects/minesweeper.png',
+      featured: false
     },
     {
       id: 'colorfill',
@@ -28,7 +29,8 @@ const Projects: React.FC = () => {
       technologies: ['JavaScript', 'CSS', 'HTML'],
       githubUrl: 'https://github.com/ssteigen/colorfill',
       liveUrl: 'https://ssteigen.github.io/colorfill/',
-      featured: true
+      imageUrl: '/portfolio-2025/images/projects/colorfill.png',
+      featured: false
     },
     {
       id: 'namerator',
@@ -36,7 +38,8 @@ const Projects: React.FC = () => {
       description: 'Creative team name generator with customizable options and themes.',
       technologies: ['JavaScript', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/ssteigen/namerator',
-      liveUrl: 'https://ssteigen.github.io/namerator/'
+      liveUrl: 'https://ssteigen.github.io/namerator/',
+      imageUrl: '/portfolio-2025/images/projects/namerator.png'
     },
     {
       id: 'skatesona',
@@ -44,7 +47,8 @@ const Projects: React.FC = () => {
       description: 'Design your ideal skates with customization options and visual previews.',
       technologies: ['JavaScript', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/ssteigen/skatesona',
-      liveUrl: 'https://ssteigen.github.io/skatesona/'
+      liveUrl: 'https://ssteigen.github.io/skatesona/',
+      imageUrl: '/portfolio-2025/images/projects/skatesona.png'
     },
     {
       id: 'yarn-basket',
@@ -53,6 +57,7 @@ const Projects: React.FC = () => {
       technologies: ['HTML5', 'CSS3', 'Foundation CSS', 'JavaScript'],
       githubUrl: 'https://github.com/ssteigen/the-yarn-basket',
       liveUrl: 'https://ssteigen.github.io/the-yarn-basket/',
+      imageUrl: '/portfolio-2025/images/projects/yarn-basket.png',
       featured: true
     }
   ];
